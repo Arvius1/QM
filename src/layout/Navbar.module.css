@@ -1,0 +1,25 @@
+.NavBar{
+  background-color: rgb(1, 133, 249);
+  padding: 5px; 
+  margin: 0;
+}
+
+.UnOrderedList{
+  list-style: none;
+  padding: 0; 
+  margin: 0;
+}
+
+.UnOrderedList>li {
+  display: inline; 
+  padding: 0; 
+  margin: 1px;
+}
+
+.UnOrderedList>li>a{
+  margin: 0;
+  text-decoration: none;
+  color: aliceblue;
+  padding: 5px; 
+  border-left: 1px saddlebrown solid;
+}

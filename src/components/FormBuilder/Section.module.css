@@ -1,0 +1,61 @@
+.MainSection
+{
+  border: 2px solid #FFFFFF;  
+  margin: 10px 0;
+  border-radius: 5px; 
+  min-height: 10px;
+}
+
+.MainSection:hover
+{
+  border: 2px solid rgb(160, 133, 58); 
+  margin: 10px 0;
+  border-radius: 5px;
+  /* background-color: rebeccapurple; */
+}
+
+.SectionHeader
+{
+  border-radius: 5px 5px 0 0;
+  background-color: #FFFFFF;
+  padding: 5px;
+}
+.SectionHeader>h1{  
+  font-size: 14px;
+  font-weight: bold;
+  font-family:Arial, Helvetica, sans-serif
+}
+
+.SectionContent
+{
+  background-color: #FFFFFF;
+  padding: 5px;
+}
+
+
+/* Footer Section */
+.SectionFooter
+{ 
+  padding: 5px;
+  padding-right: 20px;
+  padding-bottom: 10px;   
+}
+
+.divDelete{ 
+  min-width: 50px;
+  padding: 5px 10px 5px 10px;
+  float: right; 
+  font-size: 12px;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.divDelete:hover{
+  background-color: rgb(237, 237, 237);
+  border-radius: 7px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.svgDelete{
+  color: rgb(240, 128, 0);  
+}
